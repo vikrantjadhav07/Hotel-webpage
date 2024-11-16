@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Bites Restaurant</title>
-    <link rel="stylesheet" href="styles2.css">
 </head>
 <body>
+
     <header>
         <nav class="navbar">
-            <div class="logo">₾  Delicious Bites</div>
+            <div class="logo">₾ Delicious Bites</div>
             <ul class="nav-menu">
                 <li><a href="#home" onclick="home()">Home</a></li>
                 <li><a href="#menu" onclick="menu()">Menu</a></li>
-                <li><a href="#about" onclick="about()">Order</a></li>
+                <li><a href="#order" onclick="Order()">Order</a></li>
                 <li><a href="#contact" onclick="contact()">Contact</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="home">
             <h1>Welcome to Delicious Bites</h1>
@@ -28,18 +31,18 @@
 
             <div class="menu-category">
                 <h2>Appetizers</h2>
-                <ul>
-                    <li>Paneer roll - ₹150</li>
+                <ul id="list">
+                    <li>Bruschetta - ₹150</li>
                     <li>Garlic Bread - ₹120</li>
-                    <li>chicken roll - ₹180</li>
-                    <li>veggie Salad - ₹200</li>
+                    <li>Spring Rolls - ₹180</li>
+                    <li>Caesar Salad - ₹200</li>
                 </ul>
             </div>
 
             <div class="menu-category">
                 <h2>Main Course</h2>
-                <ul>
-                    <li>Chicken tandoori- ₹350</li>
+                <ul id="list">
+                    <li>Grilled Chicken - ₹350</li>
                     <li>Veggie Pasta - ₹300</li>
                     <li>Paneer Tikka Masala - ₹280</li>
                     <li>Butter Naan - ₹50</li>
@@ -48,40 +51,40 @@
 
             <div class="menu-category">
                 <h2>Desserts</h2>
-                <ul>
+                <ul id="list">
                     <li>Chocolate Lava Cake - ₹180</li>
                     <li>Gulab Jamun - ₹90</li>
                     <li>Fruit Salad - ₹150</li>
-                    <li>Ice Cream - ₹200</li>
+                    <li>Ice Cream Sundae - ₹200</li>
                 </ul>
             </div>
 
             <div class="menu-category">
                 <h2>Beverages</h2>
-                <ul>
+                <ul id="list">
                     <li>Lemon Iced Tea - ₹80</li>
                     <li>Mojito - ₹120</li>
                     <li>Cold Coffee - ₹100</li>
-                    <li>Smoothie - ₹150</li>
+                    <li>Mango Smoothie - ₹150</li>
                 </ul>
             </div>
 
         </section>
 
-        <section id="Order">
+         <section id="Order">
             <h1>Order now!</h1>
             <p>Pay 50/- extra and Delivery in 30 min!!!</p>
             <form id="order-form" target="scripts.js" method="post">
                 <fieldset id="cust">
                     <legend><strong>Menu Items</strong></legend>
                     <h3>Appetizers</h3>
-                    <input type="checkbox" name="menu-item" value="Paneer roll"> Paneer roll - ₹150<br>
+                    <input type="checkbox" name="menu-item" value="Bruschetta"> Bruschetta - ₹150<br>
                     <input type="checkbox" name="menu-item" value="Garlic Bread"> Garlic Bread - ₹120<br>
-                    <input type="checkbox" name="menu-item" value="chicken roll"> chicken roll - ₹180<br>
-                    <input type="checkbox" name="menu-item" value="vegie Salad"> vegie Salad - ₹200<br>
+                    <input type="checkbox" name="menu-item" value="Spring Rolls"> Spring Rolls - ₹180<br>
+                    <input type="checkbox" name="menu-item" value="Caesar Salad"> Caesar Salad - ₹200<br>
                     
                     <h3>Main Course</h3>
-                    <input type="checkbox" name="menu-item" value="Chicken"tandoori> Chicken tandoori- ₹350<br>
+                    <input type="checkbox" name="menu-item" value="Grilled Chicken"> Grilled Chicken - ₹350<br>
                     <input type="checkbox" name="menu-item" value="Veggie Pasta"> Veggie Pasta - ₹300<br>
                     <input type="checkbox" name="menu-item" value="Paneer Tikka Masala"> Paneer Tikka Masala - ₹280<br>
                     <input type="checkbox" name="menu-item" value="Butter Naan"> Butter Naan - ₹50<br>
@@ -90,13 +93,13 @@
                     <input type="checkbox" name="menu-item" value="Chocolate Lava Cake"> Chocolate Lava Cake - ₹180<br>
                     <input type="checkbox" name="menu-item" value="Gulab Jamun"> Gulab Jamun - ₹90<br>
                     <input type="checkbox" name="menu-item" value="Fruit Salad"> Fruit Salad - ₹150<br>
-                    <input type="checkbox" name="menu-item" value="Ice Cream"> Ice Cream - ₹200<br>
+                    <input type="checkbox" name="menu-item" value="Ice Cream Sundae"> Ice Cream Sundae - ₹200<br>
                     
                     <h3>Beverages</h3>
                     <input type="checkbox" name="menu-item" value="Lemon Iced Tea"> Lemon Iced Tea - ₹80<br>
                     <input type="checkbox" name="menu-item" value="Mojito"> Mojito - ₹120><br>
                     <input type="checkbox" name="menu-item" value="Cold Coffee"> Cold Coffee - ₹100<br>
-                    <input type="checkbox" name="menu-item" value="Smoothie"> Smoothie - ₹150<br>
+                    <input type="checkbox" name="menu-item" value="Mango Smoothie"> Mango Smoothie - ₹150<br>
                 </fieldset>
 
                 <fieldset id="cust">
@@ -118,7 +121,8 @@
             </form>
         </section>
 
-        <section id="contact"   >
+
+         <section id="contact"   >
               <h1>Contact Us</h1>
             <p>We'd love to hear from you! Reach out to us for reservations, inquiries, or feedback.</p>
 
@@ -157,7 +161,7 @@
             <div class="location-map">
                 <h3>Our Location</h3>
                 <!-- Replace the `src` attribute value with the actual Google Maps link -->
-                <iframe src="https://maps.app.goo.gl/nJwU3HiYxjjqYCWh9" 
+                <iframe src="https://www.google.com/maps/embed?pb=https://www.google.com/maps/place/United+States/@35.9630329,-161.6498675,3z/data=!3m1!4b1!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d38.7945952!4d-106.5348379!16zL20vMDljN3cw?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D" 
                         width="100%" 
                         height="400" 
                         frameborder="0" 
@@ -168,6 +172,7 @@
             </div>
         </section>
     </main>
+
     <footer >
         <ul class="footer">
             <li><a href="https://www.instagram.com" alt="Instagram">📸</a></li>
@@ -175,8 +180,7 @@
             <li><a href="https://www.twitter.com" alt="Twitter">🐦</a></li>
             <li><a href="https://www.youtube.com" alt="YouTube">🔼</a></li>
         </ul>
-        <p id="rights">All rights reserved for Delicious bites</p>
+        <p id="rights">2024 vikrant jadhav | All rights reserved</p>
     </footer>
-    <script src="scripts.js"> </script>
 </body>
 </html>
