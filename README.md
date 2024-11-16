@@ -44,7 +44,7 @@ Welcome to **Delicious Bites**, your go-to destination for a variety of delectab
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/delicious-bites.git
+   git clone [https://github.com/your-repo/delicious-bites.git](https://vikrantjadhav07.github.io/Hotel-webpage/#home)
 
 2. Open the `index.html` file in your preferred browser.
 
@@ -58,19 +58,11 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-For feedback or inquiries, you can reach us at:
-- **Email**: [contact@deliciousbites.com](mailto:contact@deliciousbites.com)
-- **Phone**: +91 12345 67890
+Sanket Bhuite :
+- **Email**: [work.sanketbhuite@outlook.com](mailto:work.sanketbhuite@outlook.com)
+- **Phone**: +91 90223 94903
 
+Vikrant Jadhav :
+- **Email**: [vikrantjadhav9696@gmail.com](mailto:vikrantjadhav9696@gmail.com)
+- **Phone**: +91 74994 85246
 ---
-
-## 🌐 Follow Us
-
-- [📸 Instagram](https://www.instagram.com)
-- [📘 Facebook](https://www.facebook.com)
-- [🐦 Twitter](https://www.twitter.com)
-- [🔼 YouTube](https://www.youtube.com)
-
-
-### Steps to Update
-Replace placeholders like `https://github.com/your-repo/delicious-bites.git` with your actual GitHub repository link. Add more information as your project evolves.
