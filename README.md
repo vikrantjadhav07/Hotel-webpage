@@ -44,7 +44,7 @@ Welcome to **Delicious Bites**, your go-to destination for a variety of delectab
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-repo/delicious-bites.git](https://vikrantjadhav07.github.io/Hotel-webpage/#home)
+   git clone https://github.com/vikrantjadhav07/Hotel-webpage
 
 2. Open the `index.html` file in your preferred browser.
 
