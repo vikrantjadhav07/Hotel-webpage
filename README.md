@@ -30,14 +30,15 @@ Welcome to **Delicious Bites**, your go-to destination for a variety of delectab
 ---
 
 ## 📂 File Structure
-
-
+```
+```
 /project-directory
 ├── index.html          # Main HTML file
 ├── styles2.css         # CSS file for styling
 ├── scripts.js          # JavaScript for dynamic behavior
 └── README.md           # Documentation
-
+```
+```
 ---
 
 ## 🚀 How to Use
@@ -45,7 +46,8 @@ Welcome to **Delicious Bites**, your go-to destination for a variety of delectab
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/delicious-bites.git
-   
+   ```
+```
 2. Open the `index.html` file in your preferred browser.
 
 ---
@@ -70,8 +72,7 @@ For feedback or inquiries, you can reach us at:
 - [📘 Facebook](https://www.facebook.com)
 - [🐦 Twitter](https://www.twitter.com)
 - [🔼 YouTube](https://www.youtube.com)
-
-
+```
+```
 ### Steps to Update
 Replace placeholders like `https://github.com/your-repo/delicious-bites.git` with your actual GitHub repository link. Add more information as your project evolves.
-'''
